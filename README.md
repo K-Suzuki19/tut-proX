@@ -1,17 +1,17 @@
 # キャラクターらしい対話文の生成
 
-大学のプロジェクト実習で深層学習の技術を使って何かを作るということで、対話文生成(文章生成)のコードを作成しました。
-今回はseq2seqという技術を使って対話文(発話と応答がセットになっているもの)のデータセットを学習用データとして事前学習、転移学習を行いました。
-学習用コードに関しては<https://github.com/Gin04gh/datascience/blob/master/samples_deeplearning_python/attention_seq2seq.ipynb> と <https://github.com/kawamix/seq2seq-haruka-amami-01> を参考にしました。
+大学のプロジェクト実習で深層学習の技術を使って何かを作るということで、対話文生成(文章生成)のコードを作成しました。  
+今回はseq2seqという技術を使って対話文(発話と応答がセットになっているもの)のデータセットを学習用データとして事前学習、転移学習を行いました。  
+学習用コードに関しては<https://github.com/Gin04gh/datascience/blob/master/samples_deeplearning_python/attention_seq2seq.ipynb> と <https://github.com/kawamix/seq2seq-haruka-amami-01> を参考にしました。  
 
 
 ## データセットについて
-学習用のテキストデータは明大会話コーパス( <https://mmsrv.ninjal.ac.jp/nucc/> )をダウンロードして使用しました。
-このデータセットを成形するコードは(<https://github.com/knok/make-meidai-dialogue>)　からお借りしました。
+学習用のテキストデータは明大会話コーパス( <https://mmsrv.ninjal.ac.jp/nucc/> )をダウンロードして使用しました。  
+このデータセットを成形するコードは(<https://github.com/knok/make-meidai-dialogue>)　からお借りしました。  
 
-また、データ数を増やすため初対面の人たちでの会話( <http://nihongo.hum.tmu.ac.jp/mic-j/kaiwa/> にあるguuzen.csv)も追加し、データセットとしました。
+また、データ数を増やすため初対面の人たちでの会話( <http://nihongo.hum.tmu.ac.jp/mic-j/kaiwa/> にあるguuzen.csv)も追加し、データセットとしました。  
 
-キャラクターらしい対話文にするためのデータはスマイルプリキュアのアニメセリフ集が載っているWebページ()から手作業でコピーし、データとしました。
+キャラクターらしい対話文にするためのデータはスマイルプリキュアのアニメセリフ集が載っているWebページ()から手作業でコピーし、データとしました。  
 
 
 ## 各プログラム,ファイルについて
