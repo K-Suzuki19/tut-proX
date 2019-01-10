@@ -13,7 +13,7 @@
 
 また、データ数を増やすため初対面の人たちでの会話( <http://nihongo.hum.tmu.ac.jp/mic-j/kaiwa/> にあるguuzen.csv)も追加し、データセットとしました。  
 
-キャラクターらしい対話文にするためのデータはスマイルプリキュアのアニメセリフ集が載っているWebページ()から手作業でコピーし、データとしました。  
+キャラクターらしい対話文にするためのデータはスマイルプリキュア！のアニメセリフ集が載っているWebページ(<http://smileprecureserifu.blog.jp/>)から手作業でコピーし、データとしました。  
 
 
 ## 各プログラム,ファイルについて
@@ -26,6 +26,7 @@
 ## 参考文献
 * <https://mmsrv.ninjal.ac.jp/nucc/> :明大会話コーパス
 * <http://nihongo.hum.tmu.ac.jp/mic-j/kaiwa/> :初対面の会話-基礎的方法と公開データ-
+* <http://smileprecureserifu.blog.jp/> :スマイルプリキュア！セリフ集
 * <https://github.com/knok/make-meidai-dialogue> :明大会話コーパスのデータ成形コード
 * <https://github.com/Gin04gh/datascience/blob/master/samples_deeplearning_python/attention_seq2seq.ipynb> :seq2seqのAttentionモデル
 * <https://github.com/kawamix/seq2seq-haruka-amami-01> :転移学習を用いた天海春香AI
