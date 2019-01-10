@@ -3,8 +3,8 @@
 大学のプロジェクト実習で深層学習の技術を使って何かを作るということで、対話文生成(文章生成)のコードを作成しました。
 今回はseq2seqという技術を使って対話文(発話と応答がセットになっているもの)のデータセットを学習用データとして事前学習、転移学習を行いました。  
 学習用コードに関しては以下の2つのWebページに載っているものを参考にしました。  
-* < https://github.com/Gin04gh/datascience/blob/master/samples_deeplearning_python/attention_seq2seq.ipynb > 
-* < https://github.com/kawamix/seq2seq-haruka-amami-01 > 
+* <https://github.com/Gin04gh/datascience/blob/master/samples_deeplearning_python/attention_seq2seq.ipynb> 
+* <https://github.com/kawamix/seq2seq-haruka-amami-01> 
 
 
 ## データセットについて
